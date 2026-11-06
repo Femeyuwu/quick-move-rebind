@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "quickmove",
+	"version": "${version}",
+	"name": "quickmove",
+	"description": "Rebind the quick move key",
+	"authors": [
+		"Femey"
+	],
+	"icon": "assets/quickmove/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.Quickmove"
+		]
+	},
+	"mixins": [
+		"quickmove.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
